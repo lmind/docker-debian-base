@@ -6,4 +6,4 @@ RUN apt-get update \
 
 RUN pip3 --no-cache-dir install numpy scipy sympy scrapy nltk pillow pandas requests paddleocr
 
-RUN pip3 --no-cache-dir install common dual tight paddle
+RUN pip3 --no-cache-dir install dual tight paddle
