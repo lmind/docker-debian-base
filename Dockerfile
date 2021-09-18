@@ -5,3 +5,5 @@ RUN apt-get update \
   && apt-get clean
 
 RUN pip --no-cache-dir install numpy scipy sympy scrapy nltk pillow pandas requests opencv-contrib-python fastapi uvicorn[standard] python-multipart
+
+RUN pip --no-cache-dir install ansible
